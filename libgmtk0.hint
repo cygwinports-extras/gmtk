@@ -1,0 +1,5 @@
+category: Gnome
+requires: libcairo2 libglib2.0_0 libgtk3_0 libintl8 libpulse0 libpulse-mainloop-glib0
+external-source: gmtk
+sdesc: "GNOME MPlayer library (runtime)"
+ldesc: "Library for gnome-mplayer and gecko-mediaplayer"

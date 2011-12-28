@@ -1,0 +1,14 @@
+inherit gnome2
+
+DESCRIPTION="GNOME MPlayer library"
+HOMEPAGE="http://code.google.com/p/gmtk/"
+SRC_URI="http://gmtk.googlecode.com/files/${P}.tar.gz"
+
+PATCH_URI="1.0.5b1-fPIC.patch
+           1.0.5b1-no-undefined.patch"
+
+PKG_NAMES="libgmtk0 libgmtk-devel"
+libgmtk0_CONTENTS="usr/bin/*-0.dll usr/share/"
+libgmtk_devel_CONTENTS="usr/include/ usr/lib/"
+
+KEEP_LA_FILES="none"
