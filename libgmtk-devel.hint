@@ -1,5 +1,0 @@
-category: Gnome
-requires: libgmtk0 libcairo-devel libglib2.0-devel libgtk3-devel libpulse-devel
-external-source: gmtk
-sdesc: "GNOME MPlayer library (development)"
-ldesc: "Library for gnome-mplayer and gecko-mediaplayer"
